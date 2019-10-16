@@ -13,4 +13,4 @@ class AttributesModifier:
         self._attr_names = attr_names
 
     def __call__(self, obj):
-        return (getattr(obj, attr_name) for attr_name in self._attr_names)
+        return tuple(getattr(obj, attr_name) for attr_name in self._attr_names)
