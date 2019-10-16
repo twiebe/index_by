@@ -16,11 +16,12 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[],
+    test_suite='tests',
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules',
-    ]
+    ],
 )
