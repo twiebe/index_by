@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='index-by',
-    version='0.0.2',
+    version='0.1.0',
     url='https://github.com/twiebe/py-index-by',
     license='BSD',
     author='Thomas Wiebe',
