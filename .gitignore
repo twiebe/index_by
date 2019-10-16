@@ -1,2 +1,4 @@
+/.eggs
+/build
 /dist
 /src/index_by.egg-info
